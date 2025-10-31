@@ -236,7 +236,7 @@ const About = () => {
           </p>
           <div className="font-geist flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:info@logicboots.com"
+              href="mailto:sales@mankrishglobal.com"
               className="btn-secondary bg-white text-primary-600 hover:bg-gray-100"
             >
               Get in Touch

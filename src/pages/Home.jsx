@@ -75,7 +75,7 @@ const Home = () => {
     },
     {
       id: "dinkarai",
-      title: "DinkarAI",
+      title: "Bridge Inspection",
       description:
         "Civil infrastructure inspection using drones + AI in real time",
       icon: <Rocket size={44} color="#ffffff" />,

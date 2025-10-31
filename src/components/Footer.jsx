@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact
+          {/* Contact */}
           <div>
             <h3 className="font-manrope font-bold text-gray-900 mb-4">
               Contact
@@ -60,15 +60,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="text-gray-600 text-sm">
                 <span className="font-manrope font-medium">Email:</span>{" "}
-                
+                sales@mankrishglobal.com
               </li>
               <li className="text-gray-600 text-sm">
                 <span className="font-manrope font-medium">Location:</span>{" "}
-                
+                GK 2, Delhi, India
               </li>
             </ul>
           </div>
-        </div> */}
+        </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
