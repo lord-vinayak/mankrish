@@ -60,11 +60,11 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="text-gray-600 text-sm">
                 <span className="font-manrope font-medium">Email:</span>{" "}
-                contact@logicboots.com
+                
               </li>
               <li className="text-gray-600 text-sm">
                 <span className="font-manrope font-medium">Location:</span>{" "}
-                Tides, IIT Roorkee, India
+                
               </li>
             </ul>
           </div>
