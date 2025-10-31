@@ -50,12 +50,11 @@ const Home = () => {
 
   const products = [
     {
-      id: "robotic-vacuum",
-      title: "AI-Powered Robotic Vacuum Cleaners",
-      description:
-        "Advanced robotic vacuum cleaners with AI navigation and smart home integration.",
-      icon: <Bot size={44} color="#ffffff" />,
-      color: "from-green-500 to-green-600",
+      id: "home-design",
+      title: "Home Design",
+      description: "A futuristic AI powered solution for home design.",
+      icon: <Microscope size={44} color="#ffffff" />,
+      color: "from-purple-500 to-purple-600",
     },
     {
       id: "ai-icu",
@@ -65,12 +64,14 @@ const Home = () => {
       icon: <Drone size={44} color="#ffffff" />,
       color: "from-red-500 to-red-600",
     },
+
     {
-      id: "home-design",
-      title: "Home Design",
-      description: "A futuristic AI powered solution for home design.",
-      icon: <Microscope size={44} color="#ffffff" />,
-      color: "from-purple-500 to-purple-600",
+      id: "robotic-vacuum",
+      title: "AI-Powered Robotic Vacuum Cleaners",
+      description:
+        "Advanced robotic vacuum cleaners with AI navigation and smart home integration.",
+      icon: <Bot size={44} color="#ffffff" />,
+      color: "from-green-500 to-green-600",
     },
     {
       id: "dinkarai",
@@ -202,7 +203,7 @@ const Home = () => {
         <div className="flex flex-wrap justify-center gap-8 p-4">
           <Card className="w-96">
             <CardHeader color="blue-gray" className="relative h-56">
-              <img src="/q5.jpg" alt="card-image" />
+              <img src="/home.png" alt="card-image" />
             </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -228,14 +229,14 @@ const Home = () => {
                 AI Stethoscope
               </Typography>
               <Typography>
-                Smart stethoscope with AI-powered diagnosis and remote 
+                Smart stethoscope with AI-powered diagnosis and remote
                 monitoring capability.
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
-              <Link to="/products/ai-stethoscope">
+              <a href="https://coeurai.net/">
                 <Button>Read More</Button>
-              </Link>
+              </a>
             </CardFooter>
           </Card>
         </div>
