@@ -116,7 +116,7 @@ const Home = () => {
             Revolutionizing Healthcare & Automation
           </h2>
           <p className="text-lg font-manrope text-gray-600 mb-8 leading-relaxed">
-            At Logicboots, we're pioneering the future of AI-powered robotics,
+            At Mankrish Global, we're pioneering the future of AI-powered robotics,
             creating solutions that transform healthcare delivery and household
             automation. Our cutting-edge technology combines artificial
             intelligence with robotics to solve real-world challenges.

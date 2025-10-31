@@ -47,7 +47,7 @@ const About = () => {
           className="text-center max-w-4xl mx-auto"
         >
           <h1 className="font-geist text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            About Logicboots
+            About Mankrish Global
           </h1>
           <p className="font-manrope text-xl text-gray-600 leading-relaxed">
             Pioneering the future of AI-powered robotics to transform healthcare and household automation
@@ -69,7 +69,7 @@ const About = () => {
               Our Story
             </h2>
             <p className="font-manrope text-gray-600 mb-6 leading-relaxed">
-              Logicboots was founded with a vision to bridge the gap between cutting-edge AI technology and practical, 
+              Mankrish Global was founded with a vision to bridge the gap between cutting-edge AI technology and practical, 
               life-changing applications. We recognized the immense potential of combining artificial intelligence with 
               robotics to solve real-world challenges in healthcare and household automation.
             </p>
