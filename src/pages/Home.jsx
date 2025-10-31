@@ -68,8 +68,7 @@ const Home = () => {
     {
       id: "home-design",
       title: "Home Design",
-      description:
-        "A futuristic AI powered solution for home design.",
+      description: "A futuristic AI powered solution for home design.",
       icon: <Microscope size={44} color="#ffffff" />,
       color: "from-purple-500 to-purple-600",
     },
@@ -116,10 +115,11 @@ const Home = () => {
             Revolutionizing Healthcare & Automation
           </h2>
           <p className="text-lg font-manrope text-gray-600 mb-8 leading-relaxed">
-            At Mankrish Global, we're pioneering the future of AI-powered robotics,
-            creating solutions that transform healthcare delivery and household
-            automation. Our cutting-edge technology combines artificial
-            intelligence with robotics to solve real-world challenges.
+            At Mankrish Global, we're pioneering the future of AI-powered
+            robotics, creating solutions that transform healthcare delivery and
+            household automation. Our cutting-edge technology combines
+            artificial intelligence with robotics to solve real-world
+            challenges.
           </p>
           <Link to="/about" className="font-geist btn-primary">
             Learn More About Us
@@ -209,13 +209,14 @@ const Home = () => {
                 HomeDesign
               </Typography>
               <Typography>
-                A futuristic AI assisted website for designing houses as per requirements.
+                A futuristic AI assisted website for designing houses as per
+                requirements.
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
-              <Link to="/featured/home-design">
+              <a href="https://homedesign.mankrishglobal.com">
                 <Button>Read More</Button>
-              </Link>
+              </a>
             </CardFooter>
           </Card>
           <Card className="w-96">
@@ -227,8 +228,8 @@ const Home = () => {
                 AI Stethoscope
               </Typography>
               <Typography>
-                Smart stethoscope with AI-powered diagnosis and remote patient
-                monitoring capabilities.
+                Smart stethoscope with AI-powered diagnosis and remote 
+                monitoring capability.
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
